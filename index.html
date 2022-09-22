@@ -1,213 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>welcome to coffe chill</title>
 
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
+<!--   link fonts -->
+    <link rel="stylesheet" href="storage/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
-  <title>Caffe Chill</title>
-
-
-  <link href="Home/css/bootstrap.min.css" rel="stylesheet">
-
-
-  <link href="Home/css/business-casual.css" rel="stylesheet">
-
-
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
-
-
-  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-
-
+    <link rel="stylesheet" href="storage/css/index.css">
 </head>
-
 <body>
 
-<div class="brand">Caffe Chill</div>
-<div class="address-bar">FPT Aptech So 8 Ton That Thuyet</div>
+<!--Phần tiêu đề trang-->
 
-
-<nav class="navbar navbar-default" role="navigation">
-  <div class="container">
-
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-
-      <a class="navbar-brand" href="index.html">FPT Aptech So 8 Ton That Thuyet</a>
-    </div>
-
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li>
-          <a href="index.html">Home</a>
-        </li>
-        <li>
-          <a href="about.html">About</a>
-        </li>
-        <li>
-          <a href="blog.html">Blog</a>
-        </li>
-        <li>
-          <a href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-
-  </div>
-
-</nav>
-
-<div class="container">
-
-  <div class="row">
-    <div class="box">
-      <div class="col-lg-12 text-center">
-        <div id="carousel-example-generic" class="carousel slide">
-
-          <ol class="carousel-indicators hidden-xs">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-          </ol>
-
-
-          <div class="carousel-inner">
-            <div class="item active">
-              <img class="img-responsive img-full" src="Home/img/slide-1.jpg" alt="">
-            </div>
-            <div class="item">
-              <img class="img-responsive img-full" src="Home/img/slide-2.jpg" alt="">
-            </div>
-            <div class="item">
-              <img class="img-responsive img-full" src="Home/img/slide-3.jpg" alt="">
-            </div>
+      <header>
+          <a href="#" class="logo"><i class="ti-comments-smiley"></i>resto.</a>
+          
+          <nav class="navbar">
+             <a class="active" href="index.html">Home</a>
+               <a href="about.html">About</a>
+              <a href="menu.html">Menu</a>
+              <a href="selling.html">Selling</a>
+              <a href="order.html">Order</a>
+          </nav>
+          <div class="icons">
+              <i class="fas fa-bars" id="menu-bars"></i>
+              <i class="fas fa-search" id="search-icon"></i>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-shopping-cart"></a>
           </div>
+      </header>
+<!--kết thúc teueu đề-->
+
+<!-- lamf form-->
+
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
 
 
-          <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-            <span class="icon-prev"></span>
-          </a>
-          <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-            <span class="icon-next"></span>
-          </a>
-        </div>
-        <h2 class="brand-before">
-          <small>Welcome to</small>
-        </h2>
-        <h1 class="brand-name">Cafee Chill</h1>
-        <hr class="tagline-divider">
-        <h2>
-          <small>By
-            <strong>Group Chill</strong>
-          </small>
-        </h2>
-      </div>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="box">
-      <div class="col-lg-12">
-        <hr>
-        <h2 class="intro-text text-center">Coffee shops
-          <strong>worth visiting</strong>
-        </h2>
-        <hr>
-        <img class="img-responsive img-border img-left" src="Home/img/intro-pic.jpg" alt="">
-        <hr class="visible-xs">
-        <p>Legend of the coffee tree
-          There is an interesting legend about the coffee tree as follows. A shepherd boy named Kaldi, while feeding his sheep once, he observed that the sheep eating strange red fruit suddenly jumped with unusual joy. He tasted this strange fruit and suddenly felt extremely refreshed and full of energy. Then he informed the monks. At first they thought it was the forbidden fruit that brought the devil and decided to burn the seed. However, the scent released from the strange seeds when burned made them want to taste it. Indeed, their spirits were extraordinarily refreshing. They decided to make it a drink before each ceremony.
-          <img class="img-responsive img-border img-left" src="Home/img/img_2.png" alt="" width="250">
-
-          The origin of the coffee tree
-          The coffee plant is said to have originated in the distant country of Ethiopia.
-          However, that is just a legend. In fact, the coffee plant originated in Ethiopia (formerly known as Kaffa). It was slaves captured from Ethiopia to Egypt who brought this fruit with them. They soon became a very popular Egyptian drink.
-
-          In the 18th century, the first Dutch people brought coffee outside of Egypt and planted it in Martinique. Later, the French and Brazilians also brought this fruit back to their homeland. That was the first step for coffee trees to be planted all over the world.</p>
-        <p>Coffee belt
-          Coffee trees can be grown in many places and areas in the world. However, there are only areas within the coffee belt; where the conditions of soil, altitude, climate and weather are met, new coffee trees grow, develop well and produce quality coffee beans with rich flavor.
-          <img class="img-responsive img-border img-left" src="Home/img/img_3.png" alt="" width="250">
-
-          coffee belt
-          Coffee trees only grow and develop well when located in the coffee belt.
-          The coffee belt is the area located along the equator, between the 23rd latitude north and the 23rd south latitude. The lands within this boundary combined with an altitude of 500-2,000 meters above sea level, rich soils, hot and humid tropical climate, and suitable rainfall are ideal conditions for coffee trees to grow. and develop.</p>
-        <p>Coffee flavor
-          The taste of coffee is something very difficult to say, it is based on the perception of many people. Each type of coffee has its own unique flavor and depending on the preferences of each person, making their choice.
-
-          Arabica has a beautiful brown color, smooth and smooth. When enjoying, a cup of fine Arabica will have a characteristic mild bitter taste, seductive aroma, in addition to a little sour or fruity taste.</p>
-        <p>Robusta is bitter, not sour like Arabica.
-          We can also combine Arabica and Robusta in certain proportions to make the coffee taste better.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="box">
-      <div class="col-lg-12">
-        <hr>
-        <h2 class="intro-text text-center">Benefits
-          <strong>of coffee</strong>
-        </h2>
-        <hr>
-        <p>In coffee there is a lot of caffeine which is a substance that has many effects on the body, and at the same time beneficial minerals and compounds also give regular coffee drinkers many benefits.
-
-          Talking about the beneficial effects of coffee, one can list a series of categories such as: Anti-drowsy, refreshing, more comfortable, preventing cancer, aging, prolonging life, beauty , weight loss,… And many other benefits.
-
-          benefits of drinking coffee
-          Drinking coffee has many health benefits.
-          However, the above benefits are only obtained when drinking in a moderate amount, averaging 2 cups of coffee a day. If too much coffee is used, it can also cause users to lose sleep, be intoxicated with coffee, hallucinate, coffee addiction, high blood pressure, etc.</p>
-      </div>
-    </div>
-  </div>
-
-</div>
+<!--  kết thúc nút ấn được đến home của hoàng :)-->
 
 
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <p>Copyright &copy; Your Website 2022</p>
-      </div>
-    </div>
-  </div>
-</footer>
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <p><h1>FACEBOOK: </h1><b>Cafee Chill</b></p>
-        <p><h1>INSTAGRAM:</h1><b>cafee.chill_</b></p>
-      </div>
-    </div>
-  </div>
-</footer>
 
 
-<script src="Home/js/jquery.js"></script>
 
 
-<script src="Home/js/bootstrap.min.js"></script>
 
 
-<script>
-  $('.carousel').carousel({
-    interval: 5000
-  })
-</script>
 
+
+
+
+
+
+
+
+
+
+
+
+
+<!--link js-->
+<script src="storage/js/index.js"></script>
 </body>
-
 </html>
