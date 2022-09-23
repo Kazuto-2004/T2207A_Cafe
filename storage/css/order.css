@@ -136,6 +136,7 @@ header .icons #menu-bars {
     font-size: 5rem;
 }
 
+/*css cho order*/
 
 
 
@@ -146,49 +147,154 @@ header .icons #menu-bars {
 
 
 
+a{
+    text-decoration: none;
+    color: #444;
+}
 
+.footer{
+    /* background-color: violet; */
+    /* height: 580px; */
+}
+.footer--header{
+    height: 220px;
+    width: 100%;
+    background-color:var(--white--color);
+    border-top: skyblue solid 5px;
 
+}
+.footer--header-all{
+    display: flex;
+}
+.footer--header-div{
+    margin: 20px 40px;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #444;;
+}
+.footer--header-div-list2{
+    display: flex;
+    margin-left: 200px;
+    margin-right:20px;
+}
+.footer--header-div-text{
+    font-weight: 400;
+    color: #444;
 
+}
+.footer--header-div li{
+    margin-top: 15px;
+    list-style: none;
+    font-weight: 400;
+    font-size: 15px;
+    color: #444;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.footer--header-div li a{
+    text-decoration: none;
+    color: #333;
+}
+.footer--header-div-icon{
+    margin-right: 10px;
+}
+.footer--header-div-icon-intar{
+    color: #333;
+}
+.footer--header-div-qrcode{
+    height: 100px;
+}
+.footer--header-div-qr{
+    display: flex;
+    margin-top: 15px;
+}
+.footer--header-div-appstore{
+    height: 20px;
+}
+.footer--header-div-chplay{
+    height: 20px;
 
+}
+.footer--header-div-qr-all{
+    margin-top: 25px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.footer--body{
+    background-color: rgb(230, 227, 227);
+    height: 320px;
+    width: 100%;
+}
+.footer--body-all1{
+    display: flex;
+    list-style: none;
+    margin-left: 150px;
+}
+.footer--body-all1-li a{
+    color: #444;
+    text-decoration: none;
+    margin: 20px 40px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer--body-all1-li{
+    margin-top: 40px;
+}
+.footer--body-all1-li2::before{
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 1px;
+    background-color: #999;
+}
+.footer--body-all1-li3::before{
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 1px;
+    background-color: #999;
+}
+.footer--body-all1-li4::before{
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 1px;
+    background-color: #999;
+}
+.footer--body-all2-img{
+    height: 40px;
+    /* background: skyblue; */
+}
+.footer--body-all2{
+    text-align: center;
+    margin-top: 50px;
+}
+.footer--body-all2-text{
+    margin-top: 20px;
+    color: #444;
+    font-size: 18px;
+}
+.footer--body-all3{
+    margin-top: 40px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.marquee{
+    background: linear-gradient(180deg,#56d8e486 10%,white 90%);
+    font-size: 23px;
+    margin-top: 40px;
+    height: 40px;
+}
+.marquees{
+    margin-top: 5px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.footer---body-all2-text{
+    font-size: 20px;
+}
+.footer--body-all3{
+    font-size: 16px;
+}
 
 
 /* media  ko dc xóa */
@@ -200,6 +306,76 @@ header .icons #menu-bars {
 
     header{
         padding: 1rem 2rem;
+    }
+
+    .none2{
+        display: none;
+    }
+    .footer--header{
+
+    }
+    .footer--header-div{
+
+        width: 1000px;
+        height: 175px;
+
+    }
+    .footer--header-div-list2{
+        width: 250px;
+        margin-left: 0;
+    }
+
+    .footer--header-div0 span{
+        display: none;
+
+    }
+
+    .footer--header-div0{
+        display: flex;
+
+    }
+    .footer--header-div0 p{
+        font-size: 14px;
+    }
+    .footer--header-div2{
+        margin-right: 0;
+    }
+    .footer--header-div li{
+        font-size: 16px
+    }
+    .footer--body-all1-li2::before{
+        background: none;
+    }
+
+    .footer--body-all1-li3::before{
+        background: none;
+    }
+    .footer--body-all1-li4::before{
+        background: none;
+    }
+    .footer--body-all1{
+        margin: auto;
+        text-align: center;
+        display: flex;
+
+    }
+    .footer--body-all1-li {
+
+
+    }
+    .footer--body-all1-li a{
+        font-size: 14px;
+    }
+    .footer---body-all2-text{
+        font-size: 15px;
+    }
+    .footer--body-all3{
+        font-size: 13px;
+    }
+
+    .marquees{
+
+        font-size: 16px;
     }
 
 }
@@ -237,12 +413,23 @@ header .icons #menu-bars {
         margin: 0 1rem;
     }
 
-}
+    .footer--header-div li{
+        font-size: 12px;
 
-@media (max-width:991px ) {
-    html {
-        font-size: 50%;
     }
+    .footer--body-all1-li a{
+        text-align: center;
+        font-size: 10px;
 
-
+    }
+    .footer--header-div-list2{
+        width: 100px;
+        margin-right: 50px;
+    }
+    .footer--header-div1s{
+        margin-right: 0;
+    }
+    .marquees{
+        font-size: 13px;
+    }
 }
