@@ -149,10 +149,6 @@ header .icons #menu-bars {
 
 
 
-
-
-/*css cho footer*/
-
 a{
     text-decoration: none;
     color: #444;
@@ -165,8 +161,8 @@ a{
 .footer--header{
     height: 220px;
     width: 100%;
-    background-color:var(--white--color);
-    border-top: skyblue solid 5px;
+
+    border-top: var(--green) solid 5px;
 
 }
 .footer--header-all{
@@ -177,7 +173,7 @@ a{
     margin-top: 40px;
     font-size: 18px;
     font-weight: 600;
-    color: #444;;
+    color: #444;
 }
 .footer--header-div-list2{
     display: flex;
@@ -285,7 +281,7 @@ a{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .marquee{
-    background: linear-gradient(180deg,#56d8e486 10%,white 90%);
+    background: linear-gradient(180deg,var(--green) 10%,white 90%);
     font-size: 23px;
     margin-top: 40px;
     height: 40px;
@@ -301,6 +297,14 @@ a{
 .footer--body-all3{
     font-size: 16px;
 }
+
+
+
+
+
+
+
+
 
 
 /* media  ko dc xóa */
