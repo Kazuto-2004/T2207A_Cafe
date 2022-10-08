@@ -138,6 +138,99 @@ header .icons #menu-bars {
 
 /*css cho order*/
 
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,40rem);
+    gap: 1.5rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+.menu .box-container .box{
+    text-align: center;
+    background: #fff;
+    border: 1rem solid rgba(0,0,0,.2);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+}
+.menu .box-container .box img{
+    width: 100%;
+    margin-bottom: 1rem;
+    height: 25rem  ;
+    padding: 1.5rem;
+    overflow: hidden;
+    object-fit: cover;
+}
+.menu .box-container .box .image{
+    height: 25rem;
+    width: 100%;
+    padding: 1.5rem;
+    overflow: hidden;
+    position: relative;
+}
+.menu .box-container .box .image .fa-heart{
+    position: absolute;
+    top: 2.5rem; right: 2.5rem;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    background: #fff;
+    border-radius: 50%;
+    color:var(--black);
+}
+.menu .box-container .box .image .fa-heart:hover{
+    background-color: var(--green);
+    color: #fff;
+}
+.menu .box-container .box .content{
+    padding: 2rem;
+    padding-top: 0;
+}
+.menu .box-container .box .content .stars{
+    padding-top: 1rem;
+}
+.menu .box-container .box .content .stars i{
+    font-size: 1.8rem;
+    color: var(--green);
+}
+.menu .box-container .box .content h3{
+    color: var(--black);
+    font-size: 2.5rem;
+}
+.menu .box-container .box .content p{
+    color: var(--light-color);
+    font-size: 1.5rem;
+    padding: .5rem 0;
+    line-height: 1.5;
+}
+.menu .box-container .box .content .pice{
+    color: var(--green);
+    margin-left: 1rem;
+    font-size: 2.5rem;
+}
+.sub-heading{
+    text-align: center;
+    font-size: 6rem;
+}
+.heading{
+    text-align: center;
+    font-size: 6rem;
+}
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--green);
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: .8rem 3rem;
+}
+.anhdau{
+    width: 100%;
+}
+
 
 
 
